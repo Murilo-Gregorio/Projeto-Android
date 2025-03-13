@@ -55,7 +55,8 @@ header > p {
   color: white;
   font-family: var(--default-font);
   font-size: 1.2em;
-  max-width: 500px;
+  min-width: 450px;
+  max-width: 900px;
   padding-right: 10px;
   padding-left: 10px;
   margin: auto;
@@ -185,6 +186,8 @@ aside ul {
 
 footer {
   background-color: var(--cor05);
+  min-width: 450px;
+  max-width: 900px;
   color: white;
   text-align: center;
   font-size: 0.8em;
