@@ -86,7 +86,7 @@ main{
   background-color: white;
   box-shadow: 0px 0px 10px #00000062;
   min-width: 450px;
-  max-width: 1000px;
+  max-width: 900px;
   padding: 20px;
   margin: auto;
   margin-bottom: 30px;
@@ -98,6 +98,7 @@ main h1 {
   color: var(--cor05);
   font-family: var(--android-font);
   font-size: 1.8em;
+  text-align: center;
 }
 
 main h2 {
@@ -134,13 +135,12 @@ main a:hover{
   color: var(--cor05);
 }
 
-main > img {
+img {
   width: 100%;
-  margin: auto;
 }
 
-main > img .pequena {
-  max-width: 350px;
+img.pequena {
+  max-width: 400px;
   display: block;
   margin: auto;
 }
@@ -168,12 +168,13 @@ aside {
   box-shadow: 3px 3px 8px #00000057;
 }
 
- aside > h3 {
+ aside  h3 {
   background-color: var(--cor04);
   color: white;
   padding: 10px;
   margin: -10px -10px 0px -10px;
   border-radius: 10px 10px 0px 0px;
+  text-align: center;
  }
 
 aside ul {
