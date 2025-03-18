@@ -185,8 +185,6 @@ aside ul {
 
 footer {
   background-color: var(--cor05);
-  min-width: 450px;
-  max-width: 900px;
   color: white;
   text-align: center;
   font-size: 0.8em;
